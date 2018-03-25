@@ -153,7 +153,7 @@ int http_simple_client_encode(obfs *self, char **pencryptdata, int datalength, s
             "User-Agent: %s\r\n"
             "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\n"
             "Accept-Language: en-US,en;q=0.8\r\n"
-            "Accept-Encoding: gzip, deflate\r\n"
+            "Accept-Encoding: deflate\r\n"
             "DNT: 1\r\n"
             "Connection: keep-alive\r\n"
             "\r\n",
